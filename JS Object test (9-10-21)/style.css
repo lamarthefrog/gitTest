@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+.container {
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
