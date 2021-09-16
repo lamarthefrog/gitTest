@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+#panel {
+    background-color: aquamarine;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+    height: 600px;
+}
+
+.fadeIn {
+    animation: fadeIn ease 1s;
+}
+
+.fadeOut {
+    animation: fadeOut ease 1s;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    padding-top: 250px;
+    text-shadow: black 2px 2px 2px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+}
