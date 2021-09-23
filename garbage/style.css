@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: aquamarine;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(255, 18, 235);
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(0, 255, 170));
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    animation: spinRight 1s infinite;
+    overflow: hidden;
+}
+
+h1 {
+    background-image: radial-gradient(cyan, aquamarine);
+    border: 2px white solid;
+    border-radius: 15px;
+    font-size: 4em;
+    margin: 0 2em;
+    padding: 3em;
+    box-shadow: 10px 10px 10px 10px rgb(255, 18, 235);
+    animation: spinRight 0.2s infinite;
+}
+
+p {
+    font-size: 1.5em;
+    animation: spinLeft 0.2s infinite;
+}
+
+h2 {
+    font-size: 3em;
+    animation: spinRight 0.2s infinite;
+}
+
+h3 {
+    font-size: 2em;
+    animation: spinRight 0.2s infinite;
+}
+
+@keyframes spinRight {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes spinLeft {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(-360deg); }
+}
