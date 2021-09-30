@@ -1,3 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    background-image: radial-gradient(rgb(245, 85, 210), rgb(68, 180, 255));
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Barriecito', cursive;
+    color: whitesmoke;
+    text-shadow: 23px 23px 2px black;
+}
+
+h1 {
+    border: 1px solid rgb(180, 59, 174);
+    display: inline-block;
+}
+
+h2 {
+    display: inline-block;
+}
+
+p:hover {
+    font-size: 80px;
+    color: pink;
+    transition: 400ms;
 }
